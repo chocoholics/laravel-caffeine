@@ -1,7 +1,7 @@
 <script>
     var lastCheck = new Date();
     var caffeineSendDrip = function () {
-        axios.get('extend-session')
+        axios.get('{{ $url }}')
              .then( response => response.status ? lastCheck = new Date() : console.log('Session could not be extended.') );
     }
 
