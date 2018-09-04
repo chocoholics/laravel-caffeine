@@ -1,11 +1,15 @@
 {
-    "name": "genealabs/laravel-caffeine",
+    "name": "chocoholics/laravel-caffeine",
     "description": "Keeping Your Laravel Forms Awake",
     "license": "MIT",
     "authors": [
         {
             "name": "Mike Bronner",
             "email": "hello@genealabs.com"
+        },
+        {
+            "name": "Obura Tongoi",
+            "email": "obura@tongoi.com"
         }
     ],
     "require": {
